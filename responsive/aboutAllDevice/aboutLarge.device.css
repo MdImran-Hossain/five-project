@@ -1,0 +1,67 @@
+@media (max-width: 1199.98px) { 
+    /* ========= banner ========= */
+    .aboutBanner__title {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .aboutBanner__sumary {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* ============ weAre============ */
+    .weAreContent__title {
+        font-size: 28px;
+    }
+    .weAreContent__sumary {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    /* =========== process ========== */
+    .processContent_sumary {
+        font-size: 14px;
+    }
+    /* ============= mission ======== */
+    .missionHead {
+        padding-right: 0px;
+    }
+    .missionHead__title {
+        font-size: 30px;
+    }
+
+    .missionHead__sumary {
+        font-size: 14px;
+    }
+    .visionHead {
+        padding-left: 40px;
+    }
+    /* =========== benefits ========= */
+    .benefitsHead__title {
+        max-width: 471px;
+        font-size: 40px;
+    }
+    .featuresContent__title {
+        font-size: 20px;
+    }
+    .featuresContent__sumary {
+        font-size: 10px;
+        line-height: 20px;
+    }
+   /* ========== team ======== */
+   .teamMember__name {
+	font-size: 18px;
+    }
+    .teamMember__designation {
+        font-size: 12px;
+    }
+    /* =========== footer ========= */
+    .footerHeadContactMail__details {
+        font-size: 16px;
+    }
+    .footerHeadContactMail__enumber {
+        font-size: 12px;
+    }
+    /* =========== copyRight ======= */
+    .copyRightNav {
+        column-gap: 22px;
+    }
+ }

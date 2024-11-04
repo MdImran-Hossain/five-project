@@ -1,0 +1,130 @@
+@media (max-width: 1199.98px) {
+    /* ===================== banner part star========================= */
+    .nav__button {
+        padding: 12px 40px;
+    }
+    .bannerHead__title {
+        font-size: 40px;
+    }
+    .bannerButton__btn {
+        padding: 12px 45px;
+    }
+    .common__title {
+        font-size: 40px;
+    }
+    .workItem__title {
+        font-size: 28px;
+    }
+    .workItem__sumary {
+        font-size: 14px;
+    }
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .projectContentOverlay {
+        padding: 0 35px 51px 48px;
+    }
+    .projectContentOverlay__title {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .projectContentOverlay__sumary {
+        font-size: 10px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .featuresContent__title {
+        font-size: 17px;
+    }
+    .featuresContent__sumary {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .aboutHead__title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .aboutHead__sumary {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .aboutContent__sumary {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .frequntlyHead__title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .frequntlyHead__link {
+        font-size: 15px;
+    }
+    .accordion-button {
+        font-size: 20px;
+    }
+    .accordion-body {
+        font-size: 13px;
+    }
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .startupsHead__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .startupsHead__sumary {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .startupscontent__title {
+        font-size: 30px;
+    }
+    .startupscontent__sumary {
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    .startupscontentForm__input {
+        font-size: 12px;
+    }
+    .startupscontentForm__input::placeholder{
+        font-size: 12px;
+    }
+    .startupscontentForm__button {
+        padding: 12px 0;
+    }
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .blogContent__date {
+        font-size: 12px;
+    }
+    .blogContent__title {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .blogContent__sumary {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .blogContent__link {
+        font-size: 14px;
+    }
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .footerHeadContactMail__details {
+        font-size: 16px;
+    }
+    .footerHeadContactMail__enumber {
+        font-size: 12px;
+    }
+
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== banner part star========================= */
+    .copyRightNav {
+	column-gap: 22px;
+    }
+    /* ---------------------- banner part end ------------------------ */
+}

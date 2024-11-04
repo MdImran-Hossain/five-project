@@ -1,0 +1,17 @@
+@media (max-width: 1199.98px) {
+    .workBannerHead__sumary {
+        padding: 24px 84px 32px;
+    }
+    .templet {
+        max-width: 451px;
+    }
+    .templet__one {
+        font-size: 34px;
+    }
+    .templet__sumary {
+        font-size: 12px;
+    }
+    .buildHead {
+        padding: 0 78px;
+    }
+}

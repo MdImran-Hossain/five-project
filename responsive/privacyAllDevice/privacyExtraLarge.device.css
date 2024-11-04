@@ -1,0 +1,11 @@
+@media (max-width: 1399.98px) {
+    #Privacy {
+        padding: 128px 0 128px;
+    }
+    .PrivacyHead__sumary {
+        padding: 16px 272px 0;
+    }
+    .privacySubhead {
+        padding: 40px 140px 0;
+    }
+}

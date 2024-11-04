@@ -1,0 +1,33 @@
+@media (max-width: 575.98px) { 
+    #WorkBanner {
+        padding: 70px 0;
+    }
+    .workBannerHead__title {
+        font-size: 30px;
+    }
+    .workBannerHead__subtitle {
+        font-size: 14px;
+    }
+    .workBannerHead__sumary {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .workBannerHead__sumary {
+        font-size: 10px;
+    }
+    #allDesing_part {
+        padding: 50px 0;
+    }
+    .nav-link {
+        padding: 9px;
+        font-size: 12px;
+    }
+    .buildHead__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .buildHead__sumary {
+        font-size: 10px;
+        line-height: 17px;
+    }
+}

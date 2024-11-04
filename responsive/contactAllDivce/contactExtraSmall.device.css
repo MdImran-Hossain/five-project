@@ -1,0 +1,16 @@
+@media (max-width: 575.98px) { 
+    .contractHead__title {
+        font-size: 38px;
+    }
+    .contractHead__sumary {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .contractFrom__inputName {
+        width: 264px;
+    }
+    .contractFrom--message {
+        width: 264px;
+        height: 100px;
+    }
+}

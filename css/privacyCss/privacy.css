@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --band_color:#282938;
+    --primary_color:#ffffff;
+    --bg_color:#F4F6FC;
+    --poppins: "Poppins", sans-serif;
+}
+
+
+#Privacy{
+    padding: 200px 0 128px;
+}
+.PrivacyHead__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.PrivacyHead__sumary{
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    text-align: center;
+    padding:16px 380px 0;
+    line-height: 28px;
+}
+.privacySubhead {
+    padding: 40px 232px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.privacySubhead__title{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.privacySubhead__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    opacity: 0.7;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.privacySubhead ul{
+    list-style: disc;
+    padding: 0 10px;
+    margin: 0;
+}
+.privacySubhead ul li{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    opacity: 0.7;
+    position: relative;
+}
+.privacySubhead ul li::after{
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: -15px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #000;
+}

@@ -1,0 +1,18 @@
+@media (max-width: 1199.98px) { 
+    .priceCard {
+        padding: 64px 50px 62px 48px;
+    }
+    .priceCard__price {
+        font-size: 32px;
+    }
+    .priceCard__sumary {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .priceCardContent__item {
+        font-size: 14px;
+    }
+    .priceCard__btn {
+        padding: 16px 45px;
+    }
+ }

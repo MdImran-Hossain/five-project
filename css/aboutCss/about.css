@@ -1,0 +1,480 @@
+/* ============================ font family css start =================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* ----------------------------- font family css end -------------------- */
+/* ============================ common css start ==================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+ol, ul, li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,div,section,span{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
+.common__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+/* ----------------------------- common css end --------------------- */
+/* ============================ root css start ==================== */
+:root{
+    --band_color:#282938;
+    --primary_color:#ffffff;
+    --poppins: "Poppins", sans-serif;
+    --banner_bg:#1C1E53;
+    --therd_bg:#F4F5F5;
+    --secend_bg:#EEF4FA;
+    --team_bg:#F4F6FC;
+    --manrope:"Manrope", sans-serif;
+}
+/* ----------------------------- root css end --------------------- */
+/* ============================ navBar css start ==================== */
+.main__nav{
+    padding: 16px 0;
+    background: var(--banner_bg);
+}
+.main__nav ul{
+    column-gap: 25px;
+}
+.nav__content{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #BBBBCB !important;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.nav__content:hover{
+    color: var(--primary_color) !important;
+}
+.nav__button{
+    max-width: 185px;
+    padding: 16px 45px;
+    border: 2px solid rgba(244, 246, 252, 0.205);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.nav__button::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: #FCD980;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    z-index: -1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.nav__button:hover::after{
+    right: 0;
+}
+/* ----------------------------- navBar css end --------------------- */
+/* ============================ banner css start ==================== */
+#aboutBanner_part{
+    padding: 128px 0;
+    background: var(--primary_color);
+}
+.aboutBanner{
+    padding-right: 9rem;
+}
+.aboutBanner__subTitle cl{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.aboutBanner__title{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 74px;
+}
+.aboutBanner__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    opacity: 0.7;
+    line-height: 28px;
+}
+/* ------------------------------ banner css end -------------------- */
+/* ============================ banner css start ==================== */
+.weAreHead{
+    padding: 80px;
+    background: var(--therd_bg);
+    text-align: start;
+}
+.weAreHead__title{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    padding-bottom: 4px;
+}
+.weAreContent {
+    padding-right: 40px;
+}
+.weAreContent__title{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.weAreContent__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 28px;
+}
+/* ------------------------------ weAre css end -------------------- */
+/* ============================ process css start ==================== */
+#process_part{
+    padding: 128px 0;
+    background: var(--primary_color);
+}
+.process__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    padding-bottom: 48px;
+}
+.processcontentIcon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 25px;
+    color: #2405F2;
+}
+.processcontentIcon span{
+    width: 224px;
+    height: 1px;
+    border: 1px dashed rgba(37, 5, 242, 0.401);
+}
+.processContent__title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    padding-top: 20px;
+}
+.processContent_sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    opacity: 0.7;
+}
+/* ------------------------------ process css end -------------------- */
+/* ============================ mission css start ==================== */
+#mission{
+    padding: 128px 0 96px;
+    background: var(--secend_bg);
+}
+.missionHead{
+    padding-right: 120px;
+}
+.missionHead__subTitle{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.missionHead__title{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.missionHead__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    opacity: 0.7;
+    line-height: 28px;
+}
+/* ------------------------------ mission css end -------------------- */
+/* ============================ vision css start ==================== */
+#vision{
+    padding-bottom: 128px;
+    background: var(--secend_bg);
+}
+.visionHead{
+    padding-right: 0;
+    padding-left: 140px;
+}
+/* ------------------------------ vision css end -------------------- */
+/* ============================ benefits css start ==================== */
+#benefits_part{
+    padding: 128px 0;
+    background: var(--primary_color);
+}
+.benefitsHead__title{
+    max-width: 630px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.featuresContent{
+    max-width: 405px;
+    padding: 58px 32px 48px 48px;
+    background: var(--team_bg);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.featuresContent:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.featuresContent span{
+    color: #2405F2;
+    font-size: 28px;
+}
+.featuresContent__title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 28px;
+    padding-top: 10px;
+}
+.featuresContent__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 28px;
+}
+.benefitsAword{
+    padding-top: 48px;
+}
+/* ------------------------------ benefits css end -------------------- */
+/* ============================ team_part css start ==================== */
+#team_part{
+    padding: 128px 0;
+    background: var(--team_bg);
+}
+.teamHead{
+    padding-bottom: 48px;
+}
+.teamHead__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.teamMember{
+    padding: 48px 64px 32px;
+    background: var(--primary_color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.teamMemberImg{
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+.teamMemberOverlay{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffffff5b,rgba(83, 57, 250, 0.40));
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    column-gap: 10px;
+    padding-bottom: 28px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.teamMember:hover .teamMemberOverlay{
+    left: 0;
+}
+.teamMemberOverlay__link{
+    color: var(--primary_color);
+}
+.teamMember__name{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #1D2130;
+}
+.teamMember__designation{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #1D2130;
+    opacity: 0.7;
+}
+/* ------------------------------ team_part css end -------------------- */
+
+/* ============================ footer css start ==================== */
+#footer_part{
+    padding-top: 96px;
+    background: var(--banner_bg);
+}
+.footerHead{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 22px;
+}
+.footerHead__sumary{
+    max-width: 399px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    opacity: 0.8;
+    line-height: 28px;
+}
+.footerHeadContact{
+    margin-top: 64px;
+    padding: 17px 137px 17px 37px;
+    background: #FCD980;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 29px;
+}
+.footerHeadContactMail{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.footerHeadContactMail__details{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.footerHeadContactMail__enumber{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.footerHead--modify{
+    row-gap: 16px;
+}
+.footerHead__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+}
+.footerSocialmedia{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 27px;
+}
+.footerSocialmedia__link{
+    font-size: 16px;
+    color: var(--primary_color);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.footerSocialmedia__link:hover{
+    color: #FCD980;
+}
+/* ----------------------------- footer css end --------------------- */
+/* ============================ copyRight css start ==================== */
+.copyRight{
+    padding: 36px 0;
+    background: var(--primary_color);
+}
+.copyRightHead__title{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.copyRight ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color) !important;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.copyRight ul li a:hover{
+    color: #2405F2 !important;
+}
+/* ----------------------------- copyRight css end --------------------- */

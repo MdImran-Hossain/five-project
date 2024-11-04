@@ -1,0 +1,9 @@
+@media (max-width: 991.98px) {
+    #blogBanner {
+        padding: 70px 0;
+    }
+    .blogBannerHead__title {
+        font-size: 36px;
+        padding: 0px 0px;
+    }
+}

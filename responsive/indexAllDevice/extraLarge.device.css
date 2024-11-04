@@ -1,0 +1,85 @@
+@media (max-width: 1399.98px) {
+
+    /* ===================== banner part star========================= */
+    .bannerHead__title {
+        font-size: 45px;
+    }
+
+    .bannerHead_sumary {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .projectContentOverlay__title {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .projectContentOverlay__sumary {
+        font-size: 14px;
+        line-height: 23px;
+        padding-bottom: 4px;
+    }
+
+    /* ---------------------- banner part end ------------------------ */
+    /* ===================== features part star========================= */
+    .featuresContent__title {
+        font-size: 20px;
+    }
+    .featuresContent__sumary {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    /* ---------------------- features part end ------------------------ */
+    /* ====================== about part start ========================== */
+    .aboutHead__title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .aboutHead__sumary {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .aboutContent__sumary {
+        font-size: 29px;
+        line-height: 40px;
+    }
+    /* ----------------------- about part end ----------------------------*/
+    /* ===================== frequntly part star========================= */
+    .frequntlyHead__title {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    /* ---------------------- frequntly part end ------------------------ */
+    /* ===================== startups part star========================= */
+    .startupsHead__title {
+        font-size: 41px;
+        line-height: 50px;
+    }
+
+    .startupsHead__sumary {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .startupscontent__sumary {
+        font-size: 13px;
+        padding-bottom: 24px;
+    }
+
+    /* ---------------------- startups part end ------------------------ */
+    /* ===================== blog part star========================= */
+    .blogContent__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .blogContent__date {
+        font-size: 14px;
+    }
+
+    .blogContent__sumary {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* ---------------------- blog part end ------------------------ */
+}

@@ -1,0 +1,11 @@
+@media (max-width: 1199.98px) {
+    .contractHead__sumary {
+        padding: 16px 200px 34px;
+    }
+    .contractFrom__inputName {
+        width: 265px;
+    }
+    .contractFrom--message {
+        width: 567px;
+    }
+}

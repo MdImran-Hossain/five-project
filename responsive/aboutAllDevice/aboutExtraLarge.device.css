@@ -1,0 +1,25 @@
+@media (max-width: 1399.98px) { 
+    /* ============= banner =============== */
+    .aboutBanner{
+        padding-right: 3rem;
+    }
+    .aboutBanner__title {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    /* ============ weAre =============== */
+    .weAreContent{
+        padding: 0;
+    }
+    .weAreContent__title {
+        font-size: 34px;
+    }
+    /* =========== team ========== */
+    .teamMember {
+        padding: 48px 44px 32px;
+    }
+    /* =============== mission ======== */
+    .missionHead__title {
+        font-size: 34px;
+    }
+ }

@@ -1,0 +1,9 @@
+@media (max-width: 991.98px) { 
+    .pricePlanHead__title {
+        font-size: 44px;
+    }
+    .pricePlanHead__sumary {
+        font-size: 14px;
+    }
+
+}

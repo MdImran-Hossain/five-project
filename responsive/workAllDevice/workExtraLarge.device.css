@@ -1,0 +1,11 @@
+@media (max-width: 1399.98px) {
+    .workBannerHead__sumary {
+        padding: 24px 143px 32px;
+    }
+    .templet {
+        max-width: 541px;
+    }
+    .buildHead {
+        padding: 0 226px;
+    }
+}

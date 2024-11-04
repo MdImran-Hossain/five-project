@@ -1,0 +1,785 @@
+/* ============================ font family css start =================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* ----------------------------- font family css end -------------------- */
+/* ============================ common css start ==================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+ol, ul, li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,div,section,span{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
+.common__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+/* ----------------------------- common css end --------------------- */
+/* ============================ root css start ==================== */
+:root{
+    --band_color:#282938;
+    --primary_color:#ffffff;
+    --poppins: "Poppins", sans-serif;
+    --banner_bg:#1C1E53;
+    --main_bg:#F4F6FC;
+    --manrope:"Manrope", sans-serif;
+}
+/* ----------------------------- root css end --------------------- */
+/* ============================ navBar css start ==================== */
+.main__nav{
+    padding: 16px 0;
+    background: var(--banner_bg);
+}
+.main__nav ul{
+    column-gap: 25px;
+}
+.nav__content{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #BBBBCB !important;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.nav__content:hover{
+    color: var(--primary_color) !important;
+}
+.nav__button{
+    max-width: 185px;
+    padding: 16px 45px;
+    border: 2px solid rgba(244, 246, 252, 0.205);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.nav__button::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: #FCD980;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    z-index: -1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.nav__button:hover::after{
+    right: 0;
+}
+/* ----------------------------- navBar css end --------------------- */
+/* ============================ banner css start ==================== */
+#banner_part{
+    padding: 123px 0 131px;
+    background: var(--banner_bg);
+}
+.bannerHead{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.bannerHead__title{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+}
+.bannerHead_sumary{
+    max-width: 513px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    line-height: 28px;
+    padding-bottom: 24px;
+}
+.bannerButton{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+}
+.bannerButton__btn{
+    padding: 16px 56px;
+    background: #FCD980;
+    border: 2px solid #FCD980;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--manrope);
+    color: #1B1C2B;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.bannerButton__btn:hover{
+    background: transparent;
+    color: var(--primary_color);
+}
+.bannerButton__pricing{
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+}
+.bannerButton__pricing span{
+    vertical-align: middle;
+}
+/* ----------------------------- banner css end ---------------------
+/* ============================ work_part css start ==================== */
+#work_part{
+    padding: 128px 0;
+    background: var(--main_bg);
+}
+.workHead{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: start;
+}
+.workHead__sumary{
+    max-width: 323px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.workHead__btn{
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #2405F2;
+}
+.workItem{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.workItem__title{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    padding-top: 8px;
+}
+.workItem__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+/* ----------------------------- work_part css end --------------------- */
+/* ============================ project css start ==================== */
+#project_part{
+    padding: 128px 0;
+    background: #fff;
+}
+.projectHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.projectHead__link{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.projectContent{
+    position: relative;
+    overflow: hidden;
+}
+.projectContentOverlay{
+    width: 47%;
+    height: 100%;
+    background: linear-gradient(0deg, #1c1e53ee, rgba(28, 30, 83, 0.421));
+    padding: 0 35px 76px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    row-gap: 20px;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.projectContent:hover .projectContentOverlay{
+    right: 53%;
+}
+.projectContentOverlay__title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    line-height: 36px;
+}
+.projectContentOverlay__sumary{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    line-height: 28px;
+    padding-bottom: 24px;
+}
+.projectContentOverlay__link{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #FCD980;
+}
+.projectContentOverlay--cardTwo{
+    width: 100%;
+    left: 100%;
+    padding: 0 139px 45px 56px;
+}
+.projectContent:hover .projectContentOverlay--cardTwo{
+    left: 0;
+}
+/* ----------------------------- project css end --------------------- */
+/* ============================ Features css start ==================== */
+#features_part{
+    padding: 128px 0;
+    background: var(--main_bg);
+}
+.featuresHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    padding-bottom: 40px;
+}
+.featuresHead__subtitle{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.featuresHead--title{
+    max-width: 630px;
+    text-align: center;
+}
+.featuresContent{
+    max-width: 405px;
+    padding: 58px 32px 48px 48px;
+    background: var(--primary_color);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.featuresContent:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.featuresContent span{
+    color: #2405F2;
+    font-size: 28px;
+}
+.featuresContent__title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 28px;
+    padding-top: 10px;
+}
+.featuresContent__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 28px;
+}
+/* ----------------------------- Features css end --------------------- */
+/* ============================ about css start ==================== */
+#about_part{
+    padding: 128px 0;
+    background: #f4f6fc80;
+}
+.aboutHead{
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 16px;
+}
+.aboutHead__title{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 56px;
+}
+.aboutHead__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 28px;
+}
+.aboutContent{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 48px;
+}
+.aboutContent__sumary{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 48px;
+}
+.aboutContentClient{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    column-gap: 14px;
+}
+.aboutContentClientName{
+    display: flex;
+    flex-direction: column;
+}
+.aboutContentClientName__jenny{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.aboutContentClientName__designation{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+/* ----------------------------- about css end --------------------- */
+/* ============================ frequntly css start ==================== */
+#frequntly_part{
+    padding: 128px 0;
+    background: var(--primary_color);
+}
+.frequntlyHead{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    row-gap: 16px;
+    padding-right: 90px;
+}
+.frequntlyHead__title{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 56px;
+}
+.frequntlyHead__link{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color:#2405F2;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.frequntlyHead__link:hover{
+    background: #2505f24f;
+}
+.accordion-button {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion {
+    --bs-accordion-border-width: none;
+}
+.accordion-item:not(:first-of-type) {
+    border-top: 1px solid var(--band_color);
+    padding-top: 10px;
+}
+.accordion-body {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    padding: 20px 68px;
+}
+.fqaSpan{
+    padding-right: 25px;
+    color: #2405F2;
+}
+.accordion-button::after {
+    background-image: url(../img/fqa/plus.png);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url(../img/fqa/plus.png);
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+}
+/* ----------------------------- frequntly css end --------------------- */
+/* ============================ startups css start ==================== */
+#startups_part{
+    padding-bottom: 128px;
+    background: var(--primary_color);
+}
+.startupsHead{
+    height: 100%;
+    background: url(../../img/indeximg/startups/one.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 96px 96px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.startupsHead::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.504);
+    z-index: -1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.startupsHead:hover::after{
+    left: 0;
+}
+.startupsHead__title{
+    font-size: 54px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    line-height: 74px;
+}
+.startupsHead__sumary{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    line-height: 28px;
+}
+.startupscontent{
+    padding: 96px 96px 48px 96px;
+    background: var(--banner_bg);
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.startupscontent__title{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+}
+.startupscontent__sumary{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #F4F6FC;
+    padding-bottom: 24px;
+}
+.startupscontentForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.startupscontentForm__input{
+    padding: 18px 32px;
+    border: 1px solid rgba(255, 255, 255, 0.051);
+    background: transparent;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    text-transform: capitalize;
+}
+.startupscontentForm__input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #F4F6FC;
+}
+.startupscontentForm__button{
+    padding: 16px 0;
+    background: #FCD980;
+    border: 1px solid #FCD980;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--manrope);
+    color: #1B1C2B;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.startupscontentForm__button:hover{
+    background: transparent;
+    color: var(--primary_color);
+}
+.startupscontentForm__btn{
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+}
+/* ----------------------------- startups css end --------------------- */
+/* ============================ blog_part css start ==================== */
+#blog_part{
+    padding-bottom: 128px;
+    background: var(--primary_color);
+}
+.blogHead{
+    display: flex;
+    justify-content: start;
+    padding-bottom: 60px;
+}
+.blogContent{
+    max-width: 405px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 16px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.blogContent:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.blogContent__date{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    padding-top: 24px;
+}
+.blogContent__title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 36px;
+}
+.blogContent__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    line-height: 28px;
+    opacity: 0.7;
+}
+.blogContent__link{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+/* ----------------------------- blog_part css end --------------------- */
+/* ============================ footer css start ==================== */
+#footer_part{
+    padding-top: 96px;
+    background: var(--banner_bg);
+}
+.footerHead{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 22px;
+}
+.footerHead__sumary{
+    max-width: 399px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+    opacity: 0.8;
+    line-height: 28px;
+}
+.footerHeadContact{
+    margin-top: 64px;
+    padding: 17px 137px 17px 37px;
+    background: #FCD980;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 29px;
+}
+.footerHeadContactMail{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.footerHeadContactMail__details{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.footerHeadContactMail__enumber{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.footerHead--modify{
+    row-gap: 16px;
+}
+.footerHead__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--primary_color);
+}
+.footerSocialmedia{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 27px;
+}
+.footerSocialmedia__link{
+    font-size: 16px;
+    color: var(--primary_color);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.footerSocialmedia__link:hover{
+    color: #FCD980;
+}
+/* ----------------------------- footer css end --------------------- */
+/* ============================ copyRight css start ==================== */
+.copyRight{
+    padding: 36px 0;
+    background: var(--primary_color);
+}
+.copyRightHead__title{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.copyRight ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color) !important;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.copyRight ul li a:hover{
+    color: #2405F2 !important;
+}
+/* ----------------------------- copyRight css end --------------------- */
+/* ============================ common css start ==================== */
+
+/* ----------------------------- common css end --------------------- */

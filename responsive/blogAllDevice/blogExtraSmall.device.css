@@ -1,0 +1,9 @@
+@media (max-width: 575.98px) { 
+    .blogBannerHead__title {
+    font-size: 18px;
+    line-height: 30px;
+    }
+    .blogBannerHead__sumary {
+        font-size: 12px;
+    }
+}

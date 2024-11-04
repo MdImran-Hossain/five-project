@@ -1,0 +1,15 @@
+@media (max-width: 767.98px) { 
+    .common__title {
+        font-size: 30px;
+        max-width: 388px;
+    }
+    .accordion-button {
+        font-size: 16px;
+    }
+    .accordion-body {
+        font-size: 12px;
+    }
+    .aboutContent__sumary {
+        font-size: 20px;
+    }
+ }

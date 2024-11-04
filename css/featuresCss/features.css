@@ -1,0 +1,23 @@
+.bannerHead--features{
+    max-width: 507px;
+}
+.benefitsAword--features{
+    padding-top: 0;
+    padding-bottom: 96px;
+}
+#featuresMission{
+    padding: 100px 0;
+    background: #fff;
+}
+#featuresVision{
+    padding: 100px 0;
+    background: #F4F6FC;
+}
+.visionHead--features{
+        padding-right: 0;
+        padding-left: 115px;
+}
+#featuresDelivery{
+    background: rgba(252, 217, 128, 0.19);
+    padding: 100px 0;
+}

@@ -1,0 +1,64 @@
+@media (max-width: 575.98px) { 
+    /* ==========  banner =============== */
+    .aboutBanner {
+        padding: 0;
+    }
+    .aboutBanner__title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .aboutBanner__sumary {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ============= weAre ========== */
+    .weAreHead {
+        padding: 80px 0;
+    }
+    .weAreHead__title {
+        font-size: 14px;
+    }
+    .weAreContent__title {
+        font-size: 20px;
+    }
+    .weAreContent__sumary {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    /* =========== process ========= */
+    .process__title {
+        font-size: 28px;
+    }
+    /* ========== mission ============ */
+    .missionHead__title {
+        font-size: 20px;
+    }
+    .missionHead__sumary {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    /* ============ benefits =========== */
+    .benefitsHead__title {
+        line-height: 32px;
+        font-size: 24px;
+    }
+    /* ============ team ====== */
+    .teamHead__title {
+        font-size: 36px;
+    }
+    /* ========== footer ============ */
+    
+    .footerHead__sumary {
+        font-size: 12px;
+    }
+    .footerHeadContact {
+        padding: 17px 15px 17px 15px;
+        column-gap: 22px;
+    }
+    .footerHead__title {
+        font-size: 38px;
+    }
+    .copyRightHead__title {
+        font-size: 12px;
+    }
+ }

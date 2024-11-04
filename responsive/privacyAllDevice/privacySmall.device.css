@@ -1,0 +1,20 @@
+
+@media (max-width: 767.98px) { 
+    .PrivacyHead__title {
+        font-size: 44px;
+    }
+    .PrivacyHead__sumary {
+        padding: 16px 0;
+        font-size: 15px;
+    }
+    .privacySubhead__title {
+        font-size: 24px;
+    }
+    .privacySubhead__sumary {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .privacySubhead ul li {
+        font-size: 12px;
+    }
+}

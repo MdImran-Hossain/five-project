@@ -1,0 +1,66 @@
+@media (max-width: 991.98px) { 
+   
+    /* ========= nav ============= */
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+        --bs-offcanvas-bg: #1C1E53;
+    }
+    .main__nav .align-items-center {
+        align-items: start !important;
+    }
+    .nav__button {
+        margin-top: 20px;
+    }
+    /* ========= banner ========== */
+    .aboutBanner{
+        padding: 0 150px;
+    }
+    .aboutBanner__subTitle{
+        text-align: center;
+    }
+    .aboutBanner__title{
+        text-align: center;
+    }
+    .aboutBanner__sumary{
+        text-align: center;
+    }
+    /* =============== weAre ============== */
+    .weAreHead {
+        padding: 80px 150px;
+        text-align: center;
+    }
+    
+    /* ============== mision============== */
+    .missionHead {
+        padding: 0px 80px;
+    }
+    .missionHead__title {
+        text-align: center;
+    }
+    .missionHead__sumary{
+        text-align: center;
+    }
+    .visionHead {
+        padding-left: 0;
+    }
+   
+    /* ========== team ======= */
+    .align-items-center {
+        align-items: center !important;
+    }
+    /* =========== footer ==========*/
+    #footer_part {
+        padding-bottom: 40px;
+    }
+    .footerHead {
+        align-items: center;
+    }
+    .footerHead__sumary {
+        text-align: center;
+    }
+    .footerHeadContact {
+        margin-top: 12px;
+    }
+ }

@@ -1,0 +1,219 @@
+:root{
+    --band_color:#282938;
+    --primary_color:#ffffff;
+    --poppins: "Poppins", sans-serif;
+    --banner_bg:#1C1E53;
+    --main_bg:#F4F6FC;
+    --manrope:"Manrope", sans-serif;
+}
+/* ========================= pricePlan csss ================== */
+#pricePlan{
+    padding: 128px 0;
+    background: var(--primary_color);
+}
+.pricePlanHead{
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin:0 auto 48px;
+}
+.pricePlanHead__title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+}
+.pricePlanHead__sumary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    opacity: 0.7;
+    text-align: center;
+}
+.priceCard{
+    max-width: 406px;
+    padding: 64px 76px 62px 48px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    background: var(--main_bg);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.priceCard::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: var(--banner_bg);
+    border-radius: 12px;
+    z-index: -1;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.priceCard:hover::after{
+    right: 0;
+}
+.priceCard::before{
+    content: '';
+    position: absolute;
+    left: -100%;
+    right: 0;
+    bottom: 25%;
+    width: 1151px;
+    height: 240%;
+    background: rgba(255, 255, 255, 0.089);
+    border-radius: 50%;
+    z-index: 1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.priceCard:hover::before{
+    left: -387px;
+}
+.priceCard__price{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    transition: all linear 0.3s;
+}
+.priceCard:hover .priceCard__price{
+    color: var(--primary_color);
+}
+
+.priceCard__price span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #2405F2;
+    transition: all linear 0.3s;
+}
+.priceCard:hover .priceCard__price span{
+    color: #FCD980;
+}
+.priceCard__title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    padding-top: 24px;
+    transition: all linear 0.3s;
+}
+.priceCard:hover .priceCard__title{
+    color: var(--primary_color);
+}
+.priceCard__sumary{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    opacity: 0.7;
+    line-height: 28px;
+    transition: all linear 0.3s;
+}
+.priceCard:hover .priceCard__sumary{
+    color: var(--primary_color);
+}
+.priceCardContent{
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.priceCardContent__item{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--band_color);
+    transition: all linear 0.3s;
+}
+.priceCard:hover .priceCardContent__item{
+    color: var(--primary_color);
+}
+.priceCardContent__item span{
+    color:#97DAAD ;
+    padding-right: 15px;
+}
+.priceCard__btn{
+    padding: 16px 77px;
+    border: 1px solid var(--band_color);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    background: var(--band_color);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--manrope);
+    color: var(--main_bg);
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.priceCard:hover .priceCard__btn{
+    color: var(--band_color);
+
+}
+.priceCard__btn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    background: #FCD980;
+    border-radius: 41px;
+    z-index: -1;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+.priceCard:hover .priceCard__btn::after{
+    right: 0;
+}
+/* -------------------------- priceplan css ----------------- */

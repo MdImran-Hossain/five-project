@@ -1,0 +1,19 @@
+@media (max-width: 991.98px) {
+    #contract_part {
+        padding: 70px 0;
+    }
+    .contractHead__sumary {
+        padding: 16px 0 34px;
+    }
+    .contract {
+        margin: 0 0px;
+        padding: 55px 66px 69px;
+    }
+    .contractFrom__inputName {
+        width: 212px;
+    }
+    .contractFrom--message {
+        width: 458px;
+        height: 120px;
+    }
+}
